@@ -121,9 +121,30 @@
                 <input type="color" name="userFavoriteColor" id="favoriteColor">
             </fieldset>
 
+            <fieldset>
+                <legend>Opinião</legend>
+
+                <p>Escala de satisfação:</p>
+                <input id="great" type="radio" name="userFeedback" value="Otima">
+                <label for="great">Ótima</label>
+                
+                <input id="good" type="radio" name="userFeedback" value="Boa">
+                <label for="good">Boa</label>
+
+                <input id="regular" type="radio" name="userFeedback" value="Regular">
+                <label for="regular">Regular</label>
+
+                <input id="bad" type="radio" name="userFeedback" value="Ruim">
+                <label for="bad">Ruim</label>
+                <br>
+
+                <!-- <label for="opinion">Comentário aberto:</label> -->
+                <p>Comentário aberto:</p>
+                <textarea id="opinion" name="userOpinion" placeholder="Descreva em mais detalhes o motivo da sua avaliação..." rows="4" cols="60"></textarea>
+            </fieldset>
+
             <button type="submit">Enviar</button>
         </form>
     </section>
-
 </body>
 </html>
