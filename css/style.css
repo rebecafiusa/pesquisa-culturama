@@ -81,7 +81,8 @@ input[type="color"]{
     padding: 0 5px;
 }
 
-input[type="tel"]{
+input[type="tel"],
+input[type="file"]{
     margin-bottom: 0;
 }
 
